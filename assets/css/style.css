@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.s-title {
+  margin-top: 3rem;
+}
+
+.obs {
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+}
+
+.s-cont {
+  margin-bottom: 3rem;
+  font-size: larger;
+}
+
+.p-cont1 span {
+  font-size: x-large;
+}
+
+.p-cont2 span {
+  font-size: x-large;
+  color: blue;
+}
+
+.p-cont2 span {
+  font-size: x-large;
+  color: green;
+}
+
+.btn {
+  width: 7rem;
+  height: 3rem;
+  font-size: x-large;
+  border-radius: 4rem;
+  cursor: pointer;
+  background-color: blue;
+  color: aliceblue;
+  border: none;
+}
+
+.btn:hover {
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+.btn:active {
+  transition: 0.3s;
+  opacity: 0.3;
+}
