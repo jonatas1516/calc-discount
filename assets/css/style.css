@@ -1,7 +1,7 @@
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -9,13 +9,18 @@
   margin-top: 3rem;
 }
 
-.obs {
-  font-size: 0.9rem;
+.title {
+  font-size: xx-large;
+}
+
+.obs,
+.s-discount,
+.s-result {
   margin-bottom: 3rem;
 }
 
-.s-discount {
-  margin-bottom: 3rem;
+.obs {
+  font-size: 0.9rem;
 }
 
 .s-discount label {
@@ -23,44 +28,38 @@
   margin-bottom: 0.4rem;
 }
 
-#discount {
-  width: 15rem;
-  height: 3rem;
+#discount,
+.btn {
   border-radius: 4rem;
-  font-size: 1.5rem;
+  height: 3rem;
+  width: 15rem;
 }
 
-.s-result {
-  margin-bottom: 3rem;
-  font-size: larger;
-}
-
-.paragraph1 span {
-  font-size: large;
+#discount,
+.btn,
+.s-result,
+.paragraph1 span,
+.paragraph2 span {
+  font-size: 1.4rem;
 }
 
 .paragraph2 span {
-  font-size: large;
-  color: blue;
+  color: green;
 }
 
 .btn {
-  width: 7rem;
-  height: 3rem;
-  font-size: x-large;
-  border-radius: 4rem;
-  cursor: pointer;
   background-color: blue;
-  color: aliceblue;
   border: none;
+  color: aliceblue;
+  cursor: pointer;
 }
 
 .btn:hover {
-  transition: 0.3s;
   opacity: 0.8;
+  transition: 0.3s;
 }
 
 .btn:active {
-  transition: 0.3s;
   opacity: 0.3;
+  transition: 0.3s;
 }
