@@ -14,7 +14,23 @@
   margin-bottom: 3rem;
 }
 
-.s-cont {
+.s-discount {
+  margin-bottom: 3rem;
+}
+
+.s-discount label {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+#discount {
+  width: 15rem;
+  height: 3rem;
+  border-radius: 4rem;
+  font-size: 1.5rem;
+}
+
+.s-result {
   margin-bottom: 3rem;
   font-size: larger;
 }
