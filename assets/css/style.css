@@ -19,18 +19,13 @@
   font-size: larger;
 }
 
-.p-cont1 span {
-  font-size: x-large;
+.paragraph1 span {
+  font-size: large;
 }
 
-.p-cont2 span {
-  font-size: x-large;
+.paragraph2 span {
+  font-size: large;
   color: blue;
-}
-
-.p-cont2 span {
-  font-size: x-large;
-  color: green;
 }
 
 .btn {
