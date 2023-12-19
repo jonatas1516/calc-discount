@@ -6,6 +6,8 @@ const paragraph1 = document.querySelector(".paragraph1 span");
 
 const paragraph2 = document.querySelector(".paragraph2 span");
 
+const paragraph3 = document.querySelector(".paragraph3 span");
+
 const btn = document.querySelector(".btn");
 
 btn.addEventListener("click", verify);
@@ -21,14 +23,15 @@ function verify() {
       paragraph1.innerHTML = `${valueTotalSD.toFixed(2)}`;
 
       if (value > 30) {
-        const discount = calculateDiscount(parseFloat(value), input.value);
-        valueTotalCD = parseFloat(valueTotalCD) + (value - discount);
+        const discount = calculateDiscount(value, input.value);
+        valueTotalCD = valueTotalCD + (value - discount);
       } else {
         valueTotalCD += value;
       }
       paragraph2.innerHTML = `${valueTotalCD.toFixed(2)}`;
     });
-    check = 1;
+
+    paragraph3.innerHTML = `${(valueTotalSD - valueTotalCD).toFixed(2)}`;
   } else {
     alert("Digite o valor do desconto");
   }
@@ -39,5 +42,5 @@ function verify() {
 }
 
 function calculateDiscount(price, discount) {
-  return (parseFloat(price) * discount) / 100;
+  return (price * discount) / 100;
 }
