@@ -43,8 +43,16 @@
   font-size: 1.4rem;
 }
 
+.paragraph1 span {
+  color: red;
+}
+
 .paragraph2 span {
   color: green;
+}
+
+.paragraph3 span {
+  color: blue;
 }
 
 .btn {
